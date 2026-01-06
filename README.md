@@ -1,2 +1,20 @@
-# codtech-task1-weather-app
-Task 1 – CODTECH Internship Weather Web Application using Public API  Technologies: HTML CSS JavaScript Public Weather API  Features: Fetches live weather data Dynamic API integration Responsive UI
+# CODTECH Internship – Task 1
+
+## Weather Web Application
+
+This project is a responsive weather application that fetches and displays real-time weather data using a public API.
+
+### Technologies Used
+- HTML
+- CSS
+- JavaScript
+- Open-Meteo Public API
+
+### Features
+- Search weather by city name
+- Live API integration
+- Responsive & modern UI
+- Dynamic data loading
+
+### Author
+Anthony Fernandes
