@@ -1,0 +1,113 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Main Card */
+.container {
+    background: rgba(255, 255, 255, 0.95);
+    width: 360px;
+    padding: 25px 20px;
+    border-radius: 16px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.container:hover {
+    transform: translateY(-5px);
+}
+
+/* Title */
+.container h1 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #1e3c72;
+    margin-bottom: 20px;
+}
+
+/* Input Field */
+input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    outline: none;
+    margin-bottom: 15px;
+    transition: border 0.3s ease;
+}
+
+input:focus {
+    border-color: #1e3c72;
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    opacity: 0.9;
+    transform: scale(1.02);
+}
+
+/* Result Box */
+#result {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 12px;
+    background: #f4f7fb;
+    color: #333;
+    font-size: 14px;
+    line-height: 1.6;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Weather Text */
+#result h3 {
+    color: #1e3c72;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Mobile Responsive */
+@media (max-width: 420px) {
+    .container {
+        width: 90%;
+    }
+}
